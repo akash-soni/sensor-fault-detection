@@ -1,0 +1,1 @@
+# pipline contains all the process from data ingestion to prediction. we will have 2 seperate pipelines : Model Training and Model Prediction.

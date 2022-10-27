@@ -1,0 +1,1 @@
+# for maintaining diffrent types of configurations. Ex MongoDb configuration, Confluent configuration
