@@ -1,6 +1,6 @@
 file_path="/config/workspace/aps_failure_training_set1.csv"
 from sensor.data_access.sensor_data import SensorData
-from sensor.constant.training_pipeline import DATA_INGESTION_COLLECTION_NAME
+from sensor.constants.training_pipeline import DATA_INGESTION_COLLECTION_NAME
 from main import set_env_variable
 import os
 if __name__=='__main__':
