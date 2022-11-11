@@ -1,6 +1,8 @@
 pymongo[srv]==4.2.0
 from-root
 imblearn
+pandas
+certifi
 scikit-learn==1.1.3
 PyYAML
 scipy
