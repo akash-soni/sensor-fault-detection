@@ -8,7 +8,6 @@ from sensor.configuration.mongo_db_connection import MongoDBClient
 from sensor.constants.database import DATABASE_NAME
 from sensor.exception import SensorException
 
-
 class SensorData:
     """
     This class help to export entire mongo db record as pandas dataframe
@@ -22,7 +21,7 @@ class SensorData:
 
         except Exception as e:
             raise SensorException(e, sys)
-
+            
 
     def save_csv_file(self,file_path ,collection_name: str, database_name: Optional[str] = None):
         try:
